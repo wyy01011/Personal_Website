@@ -1,30 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const wordArray = ['Books', 'Food', 'Electronics', 'Everything.'];
+const wordArray = ['Coder', 'Student', 'Hard Worker', 'Runner', 'Curious Person', 'Badminton Player', 'Gamer'];
 
 const WordChanger = () => {
-	const [currWord, setCurrWord] = useState(wordArray[0]);
-	const [isActive, setIsActive] = useState(true);
-
+	const [currentWord, setCurrWord] = useState(wordArray[0]);
 	const index = useRef(0);
-	useEffect(() => {
-		let interval = null;
-		if (isActive) {
-			interval = setInterval(() => {
-				index.current++;
-				setCurrWord(wordArray[index.current]);
-				if (index.current === wordArray.length - 1) {
-					setIsActive(false);
-				}
-			}, 1000);
-		}
+	
+		
+        useEffect(() => {
+            let interval = setInterval(() => {
+              // Increment the index
+              index.current = (index.current + 1) % wordArray.length;
+              // Update the current word
+              setCurrWord(wordArray[index.current]);
+            }, 1000); // Change word every second
 		return () => clearInterval(interval);
 	});
 
 	return (
-		<div style={{textAlign: "center"}}>
-			<h2>We sell</h2>
-			<h1>{currWord}</h1>
+		<div >
+			<h2>I am a {currentWord}</h2>
+			
 		</div>
 	);
 };
