@@ -3,12 +3,10 @@ import WordChanger from './WordChanger';
 function App() {
   return (
       <div>
+
         <header>
     <h1>Valarie Wong</h1>
-    <p>4th Year Computer Science Student</p>
 </header>
-
-<WordChanger />
 
 <nav>
     <ul>
@@ -19,9 +17,12 @@ function App() {
     </ul>
 </nav>
 
+<WordChanger />
+
+
+
 <section id="about" className="section about">
     <h2 style={{backgroundColor: "lightblue"}}>About Me</h2>
-    <p>Welcome! I'm [Your Name], a [Your Role/Title]. Here's a little bit about my background, experience, and passions.</p>
 </section>
 
 <section id="project" className="section project">
@@ -56,6 +57,8 @@ function App() {
         <a href="mailto:your.email@example.com">Email</a>
     </div>
 </footer>
+      
+      
       </div>
 
       
