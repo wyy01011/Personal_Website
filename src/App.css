@@ -11,3 +11,14 @@ ul li{
   display: inline-block;
   margin-right: 20px;
 }
+
+.parent{
+  text-align: center;
+
+}
+
+.titleLine{
+  display: inline-block;
+  margin-right: 20px;
+  
+}

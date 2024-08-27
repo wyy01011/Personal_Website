@@ -4,10 +4,14 @@ function App() {
   return (
       <div>
 
+<div class = 'parent'>
+<div class='titleLine'>
         <header>
     <h1>Valarie Wong</h1>
 </header>
+</div>
 
+<div class='titleLine'>
 <nav>
     <ul>
         <li><a href="#about">About</a></li>
@@ -16,6 +20,10 @@ function App() {
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
+
+</div>
+
+</div>
 
 <WordChanger />
 
