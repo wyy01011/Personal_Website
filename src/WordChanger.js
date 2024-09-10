@@ -20,7 +20,6 @@ const WordChanger = () => {
 	return (
 		<div >
 			<h2>I am a {currentWord}</h2>
-			
 		</div>
 	);
 };

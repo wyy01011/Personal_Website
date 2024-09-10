@@ -7,7 +7,7 @@ function App() {
 <div class = 'parent'>
 <div class='titleLine'>
         <header>
-    <h1>Valarie Wong</h1>
+    <h1>Valarie Wong </h1>
 </header>
 </div>
 
@@ -25,9 +25,9 @@ function App() {
 
 </div>
 
+<img src="/images/Homepage_me.jpg" alt="Picture of me" width="300" height="300"></img>
+
 <WordChanger />
-
-
 
 <section id="about" className="section about">
     <h2 style={{backgroundColor: "lightblue"}}>About Me</h2>

@@ -5,8 +5,6 @@ body {
   font-family: Arial;
 }
 
-
-
 ul li{
   display: inline-block;
   margin-right: 20px;
@@ -14,11 +12,19 @@ ul li{
 
 .parent{
   text-align: center;
-
 }
 
 .titleLine{
   display: inline-block;
   margin-right: 20px;
-  
+}
+
+img{
+  border-radius: 50%;
+}
+
+.WordChanger {
+  position: absolute;
+  right: 10px; /* Moves the component to the right edge */
+  top: 20px;  
 }
