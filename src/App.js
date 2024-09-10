@@ -45,10 +45,8 @@ function App() {
 <img src="/images/java.png" alt="Java"></img>
 <img src="/images/C++.png" alt="C++"></img>
 <img src="/images/HTML.png" alt="HTML"></img>
-
 <img src="/images/CSS.png" alt="CSS"></img>
 <img src="/images/JS.png" alt="JS"></img>
-
 <img src="/images/R.png" alt="R"></img>
 <img src="/images/Go.png" alt="Go"></img>
 <img src="/images/react.png" alt="React"></img>
@@ -61,6 +59,23 @@ function App() {
 <img src="/images/canva.png" alt="Canva"></img>
 <img src="/images/adobe.png" alt="Adobe Suite"></img>
 <img src="/images/microsoft.png" alt="Microsoft Suite"></img>
+</div>
+
+<section className="sectionWork">
+    <h2>From Working With...</h2>
+</section>
+
+<div className = 'work'>
+<img src="/images/prime.png" alt="Prime Concepts Limited"></img>
+<img src="/images/hodlnaut.png" alt="Hodlnaut"></img>
+<img src="/images/toyeast.png" alt="Toyeast"></img>
+<img src="/images/uottawa.png" alt="uOttawa"></img>
+<img src="/images/kumon.png" alt="Kumon"></img>
+<img src="/images/lukadvisor.png" alt="LukAdvisor"></img>
+<img src="/images/hth.png" alt="Hack the Hill" />
+
+
+
 </div>
 
 <footer>
