@@ -4,7 +4,7 @@ function App() {
   return (
       <div>
 
-<div class = 'parent'>
+<div class = 'header'>
 <div class='titleLine'>
         <header>
     <h1>Valarie Wong </h1>
@@ -25,11 +25,18 @@ function App() {
 
 </div>
 
-<img src="/images/Homepage_me.jpg" alt="Picture of me" width="300" height="300"></img>
+<div class = 'imgAndWordChangeContainer'>
+<div class = "imgAndWordChange">
+<img src="/images/Homepage_me.jpg" alt="Picture of me"></img>
+</div>
 
+<div class = "imgAndWordChange">
 <WordChanger />
 
-<section id="about" className="section about">
+</div>
+</div>
+
+<section id="about" className="sectionAbout">
     <h2 style={{backgroundColor: "lightblue"}}>About Me</h2>
 </section>
 

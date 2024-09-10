@@ -10,7 +10,7 @@ ul li{
   margin-right: 20px;
 }
 
-.parent{
+.header{
   text-align: center;
 }
 
@@ -19,12 +19,31 @@ ul li{
   margin-right: 20px;
 }
 
+.imgAndWordChangeContainer {
+  display: flex;
+  justify-content: flex-start; /* Align items horizontally centered */
+  align-items: center;
+}
+
+.imgAndWordChanger{
+  margin-right: 50px;
+}
+
 img{
+  width: 400px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
   border-radius: 50%;
 }
 
 .WordChanger {
-  position: absolute;
-  right: 10px; /* Moves the component to the right edge */
-  top: 20px;  
+  font-size: 50px;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+.sectionAbout{
+  margin-top: 50px;
 }

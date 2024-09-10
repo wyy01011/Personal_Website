@@ -18,7 +18,7 @@ const WordChanger = () => {
 	});
 
 	return (
-		<div >
+		<div className="WordChanger">
 			<h2>I am a {currentWord}</h2>
 		</div>
 	);
