@@ -19,7 +19,8 @@ const WordChanger = () => {
 
 	return (
 		<div className="WordChanger">
-			<h2>I am a {currentWord}</h2>
+			<h2 style={{ fontSize: '30px', marginBottom: '5px' }}>Hello, World!</h2>
+			<h2 style={{ marginTop: '5px' }}>I am a {currentWord}</h2>
 		</div>
 	);
 };

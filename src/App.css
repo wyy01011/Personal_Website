@@ -5,6 +5,17 @@ body {
   font-family: Arial;
 }
 
+.imgAndWordChangeContainer  {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 ul li{
   display: inline-block;
   margin-right: 20px;
@@ -21,12 +32,8 @@ ul li{
 
 .imgAndWordChangeContainer {
   display: flex;
-  justify-content: flex-start; /* Align items horizontally centered */
+  justify-content: flex-start; 
   align-items: center;
-}
-
-.imgAndWordChanger{
-  margin-right: 50px;
 }
 
 img{
@@ -39,11 +46,12 @@ img{
 }
 
 .WordChanger {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 100px;
   margin-right: 30px;
 }
 
-.sectionAbout{
-  margin-top: 50px;
+.sectionSkilledAt{
+  margin-top: 100px;
+  font-size: 30px;
 }
