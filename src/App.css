@@ -67,3 +67,43 @@ img{
   margin-top: 100px;
   font-size: 30px;
 }
+
+.homepageMePicResumeContainer {
+  position: relative;
+  width: 50%;
+}
+
+.homepageMePic {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.homepageMePicResumeContainer:hover .imageMe {
+  opacity: 0.3;
+}
+
+.homepageMePicResumeContainer:hover .middle {
+  opacity: 1;
+}
+
+/* green button */
+.resume {
+  background-color: #fffdd0;
+  color: black;
+  font-size: 18px;
+  padding: 16px 32px;
+  font-family: Arial;
+}

@@ -26,15 +26,24 @@ function App() {
 </div>
 
 <div className = 'imgAndWordChangeContainer'>
-<div class = "imgAndWordChange">
-<img src="/images/Homepage_me.jpg" alt="Picture of me"></img>
+
+<div class = "homepageMePicResumeContainer">
+<a href="https://shorturl.at/Axm39" target="_blank"><img src="/images/Homepage_me.jpg" alt="Picture of me" class="imageMe"></img></a>
+
+<div class = "middle">
+<div class="hoverResume">
+    <a href="https://shorturl.at/Axm39" target="_blank"><div class="resume">Click for my resume</div></a>
+    </div>
+</div>
 </div>
 
-<div class = "imgAndWordChange">
+<div class = "wordChange">
 <WordChanger />
+</div>
 
 </div>
-</div>
+
+
 
 <section id="about" className="sectionSkilledAt">
     <h2>Skilled At...</h2>
@@ -79,7 +88,6 @@ function App() {
 </div>
 
 <footer>
-    <p>&copy; 2024 Your Name</p>
     <div className="social-icons">
         <a href="https://github.com/yourprofile">GitHub</a>
         <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
