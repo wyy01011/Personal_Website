@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'; // Ensure the path is correct
 import './App.css';
+import Homepage from './Homepage'; 
+import './Homepage.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Homepage />, document.getElementById('root'));
 
