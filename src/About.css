@@ -1,0 +1,12 @@
+.p1 {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.pic1 img {
+    width: 150px; 
+    height: auto;
+}
+
+
