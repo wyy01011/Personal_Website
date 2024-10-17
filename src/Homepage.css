@@ -36,7 +36,7 @@ body {
     align-items: center;
   }
   
-  img{
+  .imageMe{
     width: 400px;
     height: 400px;
     margin-top: 30px;
@@ -46,12 +46,18 @@ body {
   }
   
   .skills img{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 100px;
     width: 130px;
     height: 140px;
     border-radius: 0%;
   }
   
   .work img{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 100px;
     width: 130px;
     height: 140px;
     border-radius: 0%;
