@@ -1,17 +1,23 @@
 function Projects() {
     return (
   
-      <div>
+    <div>
   
-      <div className = 'header'>
-        <div class='titleLine'>
-            <header>
-              <h1>Projects </h1>
-            </header>
-        </div> </div>
+        <div className = 'header'>
+            <div class='titleLine'>
+                <header><h1>Projects </h1></header>
+            </div>
+        </div>
   
   
-      </div>
+        <nav>
+            <ul>
+                <li><a href="/Homepage">Homepage</a></li>
+                <li><a href="/About">About</a></li>
+            </ul>
+        </nav>
+
+    </div>
       
     );
   }

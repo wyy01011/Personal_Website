@@ -7,7 +7,7 @@ function AppRouter() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/Homepage" element={<Homepage />} />
         <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />
       </Routes>
