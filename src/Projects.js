@@ -76,7 +76,7 @@ function Projects() {
                     for my contact info or click the button below to find me on LinkedIn.
                 </p>
 
-                <a href="https://www.linkedin.com/in/yi-yau-wong/" class = "button">My LinkedIn!</a>
+                <a href="https://www.linkedin.com/in/yi-yau-wong/" target="_blank" class = "button">My LinkedIn!</a>
             </div>
             
         </div>
