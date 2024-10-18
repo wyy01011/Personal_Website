@@ -30,7 +30,8 @@ function About() {
         </div>
 
       <div class = "intro">
-        <p>I’m Yi Yau Wong, but I go by Valarie! Born in Hong Kong, I moved to Toronto in 2019, and two years later, I relocated to Ottawa for post-secondary 
+        <p>I’m Yi Yau Wong, but I go by Valarie! I am currently a 4th-year Computer Science student at the University of Ottawa.
+          Born in Hong Kong, I moved to Toronto in 2019, and two years later, I relocated to Ottawa for post-secondary 
           studies. Living alone for the first time was challenging, but meeting incredible peers—now my best friends—made the journey more than worth it. 
           I’m trilingual, fluent in English, Cantonese, and Mandarin, and currently learning French and Korean. J'apprends le français maintenant! </p>
       </div>

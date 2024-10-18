@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const wordArray = ['Coder', 'Student', 'Hard Worker', 'Runner', 'Curious Person', 'Badminton Player', 'Gamer'];
+const wordArray = ['a Coder', 'a 4th year Computer Science Student', 'Hardworking', 'Curious', 
+	'a Badminton Player', 'a Gamer', 'Adventurous', 'Trilingual', 'Organized'];
 
 const WordChanger = () => {
 	const [currentWord, setCurrWord] = useState(wordArray[0]);
@@ -20,7 +21,7 @@ const WordChanger = () => {
 	return (
 		<div className="WordChanger">
 			<h2 style={{ fontSize: '30px', marginBottom: '5px' }}>Hello, World!</h2>
-			<h2 style={{ marginTop: '5px' }}>I am a {currentWord}</h2>
+			<h2 style={{ marginTop: '5px' }}>I am {currentWord}</h2>
 		</div>
 	);
 };
