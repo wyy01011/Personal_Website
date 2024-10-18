@@ -1,0 +1,54 @@
+.header{
+    text-align: center;
+  }
+
+.titleLine{
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+.subheader{
+    text-align: center;
+    font-size: 18px;
+}
+
+.oddQueen {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #97B1BD;
+    border-radius: 25px;
+}
+
+.queenImg{
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+.queenTitle{
+    line-height: 1.1;
+}
+
+.queenDes{
+    margin-top: 70px;
+    width: 700px;
+    height: 300px;
+    align-content: left;
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    background-color: #EC876C;
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    font-family: Arial;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+  }
