@@ -1,3 +1,8 @@
+@keyframes fadeInAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
 .header{
     text-align: center;
   }
@@ -10,14 +15,20 @@
 .subheader{
     text-align: center;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 .oddQueen {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     border: 5px solid #97B1BD;
     border-radius: 25px;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .queenImg{
@@ -33,7 +44,7 @@
 }
 
 .queenDes{
-    margin-top: 70px;
+    margin-top: 40px;
     width: 700px;
     height: 300px;
     align-content: left;
@@ -52,3 +63,113 @@
     width: 250px;
     height: 35px;
   }
+
+.RtR {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #97B1BD;
+    border-radius: 25px;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.rtrImg{
+    width: 250px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+.rtrTitle{
+    line-height: 1.1;
+}
+
+.rtrDes{
+    margin-top: 40px;
+    width: 700px;
+    height: 300px;
+    align-content: left;
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+.opti {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #97B1BD;
+    border-radius: 25px;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.optiImg{
+    width: 250px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+
+.optiTitle{
+    line-height: 1.1;
+}
+
+.optiDes{
+    margin-top: 40px;
+    width: 700px;
+    height: 300px;
+    align-content: left;
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+
+.val {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #97B1BD;
+    border-radius: 25px;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.valImg{
+    width: 250px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+.valTitle{
+    line-height: 1.1;
+}
+
+.valDes{
+    margin-top: 140px;
+    width: 700px;
+    height: 300px;
+    align-content: left;
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
