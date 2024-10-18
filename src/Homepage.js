@@ -15,7 +15,7 @@ function Homepage() {
 <nav>
     <ul>
         <li><a href="/About">About</a></li>
-        
+        <li><a href="/Projects">Projects</a></li>
     </ul>
 </nav>
 

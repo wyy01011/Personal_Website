@@ -5,6 +5,7 @@ import './App.css';
 import Homepage from './Homepage'; 
 import './Homepage.css';
 import './About.css';
+import './Projects.css';
 import AppRouter from './App';
 
 ReactDOM.render(<AppRouter />, document.getElementById('root'));
