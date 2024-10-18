@@ -12,7 +12,7 @@ function Projects() {
   
         <nav>
             <ul>
-                <li><a href="/Homepage">Homepage</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/About">About</a></li>
             </ul>
         </nav>

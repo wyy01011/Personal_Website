@@ -13,7 +13,7 @@ function About() {
       <div class='titleLine'>
       <nav>
           <ul>
-            <li><a href="/Homepage">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/Projects">Projects</a></li>
           </ul>
       </nav>
