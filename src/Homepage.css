@@ -3,9 +3,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 40px;
   font-family: Arial;
-}
-  
-.imgAndWordChangeContainer  {
+
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -83,7 +81,6 @@ ul li{
 }
    
 .sectionSkilledAt{
-  margin-top: 100px;
   font-size: 30px;
 }
   
@@ -95,6 +92,10 @@ ul li{
 .homepageMePicResumeContainer {
   position: relative;
   width: 50%;
+}
+
+.bigImgAndWordChangeContainer{
+  height: 500px;
 }
   
 .homepageMePic {
@@ -129,4 +130,19 @@ ul li{
   font-size: 18px;
   padding: 16px 32px;
   font-family: Arial;
+}
+
+.helloWorld{
+  width: 500px;
+  margin-top: -500px;
+  margin-bottom: 100px;
+  font-size: 50px;
+
+}
+
+.iAmWord {
+  margin-top: -280px; 
+  margin-bottom: 100px;
+  margin-left: 580px;
+  font-size: 70px;
 }

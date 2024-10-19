@@ -22,18 +22,24 @@ function Homepage() {
         </div>
 
 
-        <div className = 'imgAndWordChangeContainer'>
+        <div className = 'bigImgAndWordChangeContainer'>
+            <div className = 'imgAndWordChangeContainer'>
 
-            <div class = "homepageMePicResumeContainer">
-                <img src="/images/Homepage_me.jpg" alt="Picture of me" class="imageMe"></img>
+                <div class = "homepageMePicResumeContainer">
+                    <img src="/images/Homepage_me.jpg" alt="Picture of me" class="imageMe"></img>
 
-                <div class = "middle">
-                    <a href="https://shorturl.at/Axm39" target="_blank"><div class="resume">Click for my resume</div></a>
+                    <div class = "middle">
+                        <a href="https://shorturl.at/Axm39" target="_blank"><div class="resume">Click for my resume</div></a>
+                    </div>
                 </div>
+
+                <div className='helloWord' style={{ marginTop: '-200px' }}><h2>Hello, World! <br/></h2></div>
+
             </div>
 
-            <div class = "wordChange"><WordChanger /></div>
-
+            <div className='iAmWord'>
+                    <h2 style={{ fontSize: '70px', width: '5000px', display: 'inline' }}>I am <span class="wordChange"><WordChanger /></span> </h2>
+            </div>
         </div>
 
 
