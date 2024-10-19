@@ -6,7 +6,7 @@ function Homepage() {
 
         <div className = 'header'>
             <div class='titleLine'>
-                <header><h1>Valarie Wong </h1></header>
+                <header><h1>Valarie Wong</h1></header>
             </div>
 
             <div class='titleLine'>
@@ -44,7 +44,7 @@ function Homepage() {
 
 
 
-        <section className="sectionSkilledAt"><h2>Skilled At...</h2></section>
+        <section className="sectionSkilledAt"><h2><span style={{color: "#E3242B"}}>Skilled</span> At...</h2></section>
 
         <div className = 'skills'>
             <img src="/images/python.png" alt="Python"></img>
@@ -67,7 +67,7 @@ function Homepage() {
             <img src="/images/microsoft.png" alt="Microsoft Suite"></img>
         </div>
 
-        <section className="sectionWork"><h2>From Working With...</h2></section>
+        <section className="sectionWork"><h2>From <span style={{color: "#E3242B"}}>Working</span> With...</h2></section>
 
         <div className = 'work'>
             <img src="/images/hodlnaut.png" alt="Hodlnaut"></img>
