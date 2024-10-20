@@ -1,4 +1,5 @@
 import WordChanger from './WordChanger';
+import Footer from './Footer';
 
 function Homepage() {
   return (
@@ -80,6 +81,8 @@ function Homepage() {
             <img src="/images/lukadvisor.png" alt="LukAdvisor" width = "250px"></img>
             
         </div>
+
+        <Footer/>
 
     </div>    
     

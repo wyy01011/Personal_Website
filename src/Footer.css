@@ -1,0 +1,35 @@
+.Footer {
+    background-color: #fffdd0;
+    text-align: center;
+    align-items: center;
+}
+
+.title{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail{
+    width: 120px;
+    height: auto;
+    margin: 0px 50px;
+}
+
+.github{
+    width: 95px;
+    height: auto;
+    margin: 0px 50px;
+}
+
+.linkedin{
+    width: 95px;
+    height: auto;
+    margin: 0px 50px;
+}

@@ -1,3 +1,5 @@
+import Footer from './Footer';
+
 function Projects() {
     return (
   
@@ -81,6 +83,7 @@ function Projects() {
             
         </div>
   
+        <Footer/>
   
     </div>
       
