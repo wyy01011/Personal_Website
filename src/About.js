@@ -35,7 +35,7 @@ function About() {
         <p>I’m Yi Yau Wong, but I go by Valarie! I am currently a <span style={{fontWeight: 'bold'}}>4th-year Computer Science student</span> at the University of Ottawa.
           Born in Hong Kong, I moved to Toronto in 2019, and two years later, I relocated to Ottawa for post-secondary 
           studies. Living alone for the first time was challenging, but meeting incredible peers—now my best friends—made the journey more than worth it. 
-          I’m trilingual, <span style={{fontWeight: 'bold'}}>fluent in English, Cantonese, and Mandarin </span>, and currently learning French and Korean. J'apprends le français maintenant! </p>
+          I’m trilingual, <span style={{fontWeight: 'bold'}}>fluent in English, Cantonese, and Mandarin</span>, and currently learning French and Korean. J'apprends le français maintenant! </p>
       </div>
 
     </div>
@@ -43,7 +43,7 @@ function About() {
      <div className = "p2">
 
       <div class = "vol1">
-        <p>I’m passionate about <span style={{fontWeight: 'bold'}}>volunteering for various organizations</span>, and each role has contributed to honing my leadership and communication skills. 
+        <p>I’m passionate about <span style={{fontWeight: 'bold'}}>volunteering for various organizations</span>, and each role has contributed to honing my <span style={{fontWeight: 'bold'}}>leadership and communication skills</span>. 
           As VP of Events for the University of Ottawa Hong Kong Cultural Association and a Mentor at PennyDrops, I’ve gained invaluable experience in leadership,
           coordinating events and mentoring others. On the technical side, I serve as a volunteer Website Developer for Inspired 2 Uplift, where I’m 
           responsible for rebuilding their current webpage using WIX. </p>

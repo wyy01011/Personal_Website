@@ -15,6 +15,7 @@ function Homepage() {
                     <ul>
                         <li><a href="/About">About</a></li>
                         <li><a href="/Projects">Projects</a></li>
+                        <li><a href="https://shorturl.at/Axm39" target="_blank">Resume</a></li>
                     </ul>
                 </nav>
 

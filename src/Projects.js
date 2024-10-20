@@ -74,7 +74,8 @@ function Projects() {
 
             <div className='valDes'>
                 <h2 className="valTitle">Personal Website &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>React, HTML, CSS, Git</span></h2> 
-                <p>It is the website that you are currently on. Feel free to keep browsing or contact me for any questions! Scroll to the footer 
+                <p>It is the website that you are currently on. This is my <span style={{fontWeight: 'bold'}}>first</span> ever website built using React!
+                    Feel free to keep browsing or contact me for any questions. Scroll to the footer 
                     for my contact info or click the button below to find me on LinkedIn.
                 </p>
 
