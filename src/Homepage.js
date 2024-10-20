@@ -34,12 +34,10 @@ function Homepage() {
                     </div>
                 </div>
 
-                <div className='helloWord' style={{ marginTop: '-200px' }}><h2>Hello, World! <br/></h2></div>
-
             </div>
 
             <div className='iAmWord'>
-                    <h2 style={{ fontSize: '70px', width: '5000px', display: 'inline' }}>I am <span class="wordChange"><WordChanger /></span> </h2>
+                    <h2 style={{ fontSize: '70px', width: '5000px', display: 'inline' }}><span style={{fontSize:'40px', marginBottom:'20px'}}>Hello World! </span><br/> I am <span class="wordChange"><WordChanger /></span> </h2>
             </div>
         </div>
 

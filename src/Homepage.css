@@ -81,6 +81,7 @@ ul li{
 }
    
 .sectionSkilledAt{
+  margin-top: 30px;
   font-size: 30px;
 }
   
@@ -92,6 +93,10 @@ ul li{
 .homepageMePicResumeContainer {
   position: relative;
   width: 50%;
+  height: 500px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .bigImgAndWordChangeContainer{
@@ -141,8 +146,8 @@ ul li{
 }
 
 .iAmWord {
-  margin-top: -280px; 
+  margin-top: -380px; 
   margin-bottom: 100px;
-  margin-left: 580px;
+  margin-left: 620px;
   font-size: 70px;
 }

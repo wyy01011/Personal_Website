@@ -1,3 +1,9 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .p1 {
     margin-top: 40px;
     display: flex;
