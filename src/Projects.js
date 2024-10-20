@@ -44,10 +44,9 @@ function Projects() {
 
             <div className='rtrDes'>
                 <h2 className="rtrTitle">Road to Revival &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>3D Printing, Laser Cutting</span></h2>
-                <p>Welcome to Road to Revival where players can have fun while also learning about ecological crises. 
+                <p> This project won <span style={{fontWeight: 'bold'}}>1st place</span> in Hack the Hill! Welcome to Road to Revival where players can have fun while also learning about ecological crises. 
                     We face challenges such as climate change, loss of biodiversity, pollution and many others every day. 
-                    Therefore, it is important to raise awareness and encourage people to make a change and a positive impact. 
-                    This board game is designed to educate and encourage individuals in an enjoyable and entertaining way. </p>
+                    Therefore, it is important to raise awareness and encourage people to make a change and a positive impact.</p>
 
                 <a href="https://devpost.com/software/road-to-revival" target="_blank" class = "button">Learn More!</a>
             </div>
