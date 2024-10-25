@@ -9,6 +9,22 @@ body {
   animation-fill-mode: forwards;
 }
 
+.topLeft{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60px;
+}
+
+.websiteIcon{
+  width: 60px;
+}
+
+.nameTopLeft{
+  font-size: 18px;
+  white-space: nowrap;
+}
+
 .WordChanger {
   font-size: 40px;
   margin-top: 100px;
@@ -28,6 +44,7 @@ ul li{
   
 .header{
   text-align: center;
+  margin-top: 100px;
 }
   
 .titleLine{

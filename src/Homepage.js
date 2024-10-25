@@ -5,6 +5,11 @@ function Homepage() {
   return (
     <div>
 
+        <div className = 'topLeft'>
+            <img src="/images/icon.png" alt="Website Icon" class="websiteIcon"></img>
+            <p className = 'name'>Valarie Wong</p>
+        </div>
+
         <div className = 'header'>
             <div class='titleLine'>
                 <header><h1>Valarie Wong</h1></header>
