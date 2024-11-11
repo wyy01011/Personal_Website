@@ -5,6 +5,11 @@ function About() {
 
     <div>
 
+    <div className='topLeft'>
+      <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
+      <a href="/" className='nameTopLeft'>Valarie Wong</a>
+    </div>
+
     <div className = 'header'>
       <div class='titleLine'>
           <header>
@@ -17,6 +22,7 @@ function About() {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/Projects">Projects</a></li>
+            <li><a href="https://shorturl.at/Axm39" target="_blank">Resume</a></li>
           </ul>
       </nav>
 

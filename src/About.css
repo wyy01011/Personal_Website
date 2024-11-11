@@ -4,6 +4,24 @@ body{
   align-items: center;
 }
 
+.topLeft {
+  display: flex;
+  align-items: center; 
+  gap: 8px;
+  margin-left: 10px;
+}
+
+.websiteIcon {
+  width: 60px;
+}
+
+.nameTopLeft {
+  font-size: 18px;
+  color: black;
+  white-space: nowrap;
+  text-decoration: none; 
+}
+
 .p1 {
     margin-top: 40px;
     display: flex;

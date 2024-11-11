@@ -7,22 +7,28 @@ body {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
 
-.topLeft{
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center; 
+  gap: 8px;
+  margin-left: 10px;
+}
+
+.websiteIcon {
   width: 60px;
 }
 
-.websiteIcon{
-  width: 60px;
-}
-
-.nameTopLeft{
+.nameTopLeft {
   font-size: 18px;
+  color: black;
   white-space: nowrap;
+  text-decoration: none; 
 }
 
 .WordChanger {
@@ -44,7 +50,7 @@ ul li{
   
 .header{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
 }
   
 .titleLine{

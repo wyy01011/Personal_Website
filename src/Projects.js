@@ -4,6 +4,11 @@ function Projects() {
     return (
   
     <div>
+
+        <div className='topLeft'>
+            <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
+            <a href="/" className='nameTopLeft'>Valarie Wong</a>
+        </div>
   
         <div className = 'header'>
             <div class='titleLine'>
@@ -15,6 +20,7 @@ function Projects() {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/About">About</a></li>
+                    <li><a href="https://shorturl.at/Axm39" target="_blank">Resume</a></li>
                 </ul>
             </nav>
         </div>

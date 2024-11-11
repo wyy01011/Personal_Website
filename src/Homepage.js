@@ -5,9 +5,9 @@ function Homepage() {
   return (
     <div>
 
-        <div className = 'topLeft'>
-            <img src="/images/icon.png" alt="Website Icon" class="websiteIcon"></img>
-            <p className = 'name'>Valarie Wong</p>
+        <div className='topLeft'>
+            <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
+            <a href="/" className='nameTopLeft'>Valarie Wong</a>
         </div>
 
         <div className = 'header'>
