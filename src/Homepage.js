@@ -1,5 +1,6 @@
 import WordChanger from './WordChanger';
 import Footer from './Footer';
+import MouseFollower from './MouseFollower';
 
 function Homepage() {
   return (
@@ -47,7 +48,7 @@ function Homepage() {
             </div>
         </div>
 
-
+        <MouseFollower/>
 
         <section className="sectionSkilledAt"><h2><span style={{color: "#E3242B"}}>Skilled</span> At...</h2></section>
 
