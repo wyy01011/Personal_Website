@@ -21,9 +21,9 @@ function MouseFollower() {
     // Style for the follower element
     const followerStyle = {
         position: 'absolute',
-        top: position.y + 10, // No offset
-        left: position.x + 10, // No offset
-        pointerEvents: 'none',
+        top: position.y + 10, 
+        left: position.x + 10, 
+        pointerEvents: 'none'
     };
     
 
