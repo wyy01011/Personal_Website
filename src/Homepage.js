@@ -5,7 +5,7 @@ import PixelCat from './PixelCat'
 
 function Homepage() {
   return (
-    <div>
+    <div >
 
         <div className='topLeft'>
             <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
