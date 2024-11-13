@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
 body {
   background: linear-gradient(60deg, #f0e9d4, #F7CE68);
-
-
-
   color: rgb(0, 0, 0);
   padding: 40px;
-  font-family: Arial;
+  font-family: 'Fira Code', monospace;
 
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -36,6 +35,7 @@ body {
 }
 
 .WordChanger {
+  font-family: 'Fira Code', monospace;
   font-size: 40px;
   margin-top: 100px;
   margin-right: 30px;
@@ -48,16 +48,27 @@ body {
 }
   
 ul li{
+  letter-spacing: 0px;
   display: inline-block;
   margin-right: 20px;
+  color: black;
+}
+
+.titleLine nav ul li a {
+  font-family: 'Fira Code', monospace;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  background-color: #f1a01f;
 }
   
 .header{
   text-align: center;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
   
 .titleLine{
+  letter-spacing: 2px;
   display: inline-block;
   margin-right: 20px;
 }
@@ -108,11 +119,13 @@ ul li{
 }
    
 .sectionSkilledAt{
+  letter-spacing: 3px;
   margin-top: 30px;
   font-size: 30px;
 }
   
 .sectionWork{
+  letter-spacing: 3px;
   margin-top: 100px;
   font-size: 30px;
 }
@@ -173,6 +186,7 @@ ul li{
 }
 
 .iAmWord {
+  font-family: 'Fira Code', monospace;
   margin-top: -380px; 
   margin-bottom: 100px;
   margin-left: 620px;

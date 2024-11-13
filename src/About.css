@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 body{
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,20 +20,21 @@ body{
 
 .nameTopLeft {
   font-size: 18px;
+  font-weight: 'bold';
   color: black;
   white-space: nowrap;
   text-decoration: none; 
 }
 
 .p1 {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    gap: 80px; 
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 80px; 
 
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .pic1 {

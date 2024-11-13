@@ -9,3 +9,5 @@ function PixelCat() {
 }
 
 export default PixelCat;
+
+/* Reference: https://www.reddit.com/r/PixelArt/comments/17y5c2s/old_animation_i_made_of_a_cat_walking/#lightbox */
