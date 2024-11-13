@@ -1,6 +1,7 @@
 import WordChanger from './WordChanger';
 import Footer from './Footer';
 import MouseFollower from './MouseFollower';
+import PixelCat from './PixelCat'
 
 function Homepage() {
   return (
@@ -9,6 +10,7 @@ function Homepage() {
         <div className='topLeft'>
             <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
             <a href="/" className='nameTopLeft'>Valarie Wong</a>
+            <PixelCat/>
         </div>
 
         <div className = 'header'>

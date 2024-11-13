@@ -1,0 +1,17 @@
+.pixelCat {
+    position: relative;
+    width: 120px;
+    z-index: 1;
+    pointer-events: none;
+    animation: walking 8s linear infinite; 
+}
+  
+
+@keyframes walking {
+
+  0%   {left: 30vw; transform: scaleX(1);}
+  50%  {left: 80vw; transform: scaleX(1);}
+  51%  {left: 80vw; transform: scaleX(-1);}
+  100% {left: 30vw; transform: scaleX(-1);}
+    
+}
