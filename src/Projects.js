@@ -1,9 +1,12 @@
+import MouseFollower from './MouseFollower';
 import Footer from './Footer';
 
 function Projects() {
     return (
   
     <div>
+
+        <MouseFollower/>
 
         <div className='topLeft'>
             <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>

@@ -7,6 +7,8 @@ function Homepage() {
   return (
     <div >
 
+        <MouseFollower/>
+
         <div className='topLeft'>
             <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
             <a href="/" className='nameTopLeft'>Valarie Wong</a>
@@ -49,8 +51,6 @@ function Homepage() {
                     <h2 style={{ fontSize: '70px', width: '5000px', display: 'inline' }}><span style={{fontSize:'40px', marginBottom:'20px'}}>Hello World! </span><br/> I am <span class="wordChange"><WordChanger /></span> </h2>
             </div>
         </div>
-
-        <MouseFollower/>
 
         <section className="sectionSkilledAt"><h2><span style={{color: "#E3242B"}}>Skilled</span> At...</h2></section>
 
