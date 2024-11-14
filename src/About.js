@@ -9,8 +9,8 @@ function About() {
       <MouseFollower/>
 
     <div className='topLeft'>
-      <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
-      <a href="/" className='nameTopLeft'>Valarie Wong</a>
+      <a href="#/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt="Website Icon" class="websiteIcon"/></a>
+      <a href="#/" className='nameTopLeft'>Valarie Wong</a>
     </div>
 
     <div className = 'header'>
@@ -23,8 +23,8 @@ function About() {
       <div class='titleLine'>
       <nav>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/Projects">Projects</a></li>
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/Projects">Projects</a></li>
             <li><a href="https://shorturl.at/Axm39" target="_blank">Resume</a></li>
           </ul>
       </nav>
@@ -37,8 +37,8 @@ function About() {
     <div className = "p1">
 
       <div class = "pic1">
-        <img src="/images/japan.jpg" alt="Japan"></img>
-        </div>
+        <img src={`${process.env.PUBLIC_URL}/images/japan.jpg`} alt="Japan"/>
+      </div>
 
       <div class = "intro">
         <p>I’m Yi Yau Wong, but I go by Valarie! I am currently a <span style={{fontWeight: 'bold'}}>4th-year Computer Science student</span> at the University of Ottawa.
@@ -59,7 +59,7 @@ function About() {
       </div>
 
       <div class = "pic2">
-        <img src="/images/vol1.jpg" alt="101 week guide"></img>
+        <img src={`${process.env.PUBLIC_URL}/images/vol1.jpg`} alt="101 week guide"/>
       </div>
 
     </div>
@@ -68,8 +68,7 @@ function About() {
      <div className = "p3">
 
      <div class = "pic3">
-        <img src="/images/about_intro.jpg" alt="Club Fair HtH"></img>
-        
+        <img src={`${process.env.PUBLIC_URL}/images/about_intro.jpg`} alt="Club Fair HtH"/>      
       </div>
 
       <div class = "vol2">
@@ -91,7 +90,7 @@ function About() {
       </div>
 
       <div class = "pic4">
-        <img src="/images/hobby.jpg" alt="Hiking"></img>
+        <img src={`${process.env.PUBLIC_URL}/images/hobby.jpg`} alt="Hiking"/>    
       </div>
 
     </div>

@@ -9,8 +9,8 @@ function Projects() {
         <MouseFollower/>
 
         <div className='topLeft'>
-            <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
-            <a href="/" className='nameTopLeft'>Valarie Wong</a>
+            <a href="#/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt="Website Icon" class="websiteIcon"/></a>
+            <a href="#/" className='nameTopLeft'>Valarie Wong</a>
         </div>
   
         <div className = 'header'>
@@ -21,8 +21,8 @@ function Projects() {
             <div class='titleLine'>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/About">About</a></li>
+                    <li><a href="#/">Home</a></li>
+                    <li><a href="#/About">About</a></li>
                     <li><a href="https://shorturl.at/Axm39" target="_blank">Resume</a></li>
                 </ul>
             </nav>
@@ -35,7 +35,7 @@ function Projects() {
         </div>
 
         <div className = "opti">
-            <img src="/images/optiflow.png" alt="OptiflowAI thumbnail" className="optiImg"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/optiflow.png`} alt="OptiflowAI thumbnail" class="optiImg"/>
 
             <div className='optiDes'>
                 <h2 className="optiTitle">Optiflow AI &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>AI, Canva</span></h2>
@@ -49,7 +49,7 @@ function Projects() {
         </div>
 
         <div className = "RtR">
-            <img src="/images/RtR.png" alt="Road to Revival" className="rtrImg"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/RtR.png`}  alt="Road to Revival" className="rtrImg"/>
 
             <div className='rtrDes'>
                 <h2 className="rtrTitle">Road to Revival &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>3D Printing, Laser Cutting</span></h2>
@@ -64,7 +64,7 @@ function Projects() {
 
 
         <div className = "oddQueen">
-            <img src="/images/queen.png" alt="Odd Queen Logo" className="queenImg"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/queen.png`}  alt="Odd Queen Logo" className="queenImg"/>
 
             <div className='queenDes'>
                 <h2 className="queenTitle">Where's the Queen? &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>Python</span></h2>
@@ -78,7 +78,7 @@ function Projects() {
         </div>
 
         <div className = "val">
-            <img src="/images/val_website.png" alt="Personal Website thumbnail" className="valImg"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/val_website.png`} alt="Personal Website thumbnail" className="valImg"/>
 
             <div className='valDes'>
                 <h2 className="valTitle">Personal Website &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>React, HTML, CSS, Git</span></h2> 
