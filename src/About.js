@@ -9,7 +9,7 @@ function About() {
       <MouseFollower/>
 
     <div className='topLeft'>
-      <a href="/"><img src='/images/icon.png' alt='Website Icon' className='websiteIcon' /></a>
+      <a href="/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt='Website Icon' className='websiteIcon' /></a>
       <a href="/" className='nameTopLeft'>Valarie Wong</a>
     </div>
 
@@ -37,7 +37,7 @@ function About() {
     <div className = "p1">
 
       <div class = "pic1">
-        <img src="/images/japan.jpg" alt="Japan"></img>
+        <img src={`${process.env.PUBLIC_URL}/images/japan.jpg`} alt="Japan"></img>
         </div>
 
       <div class = "intro">
@@ -59,7 +59,7 @@ function About() {
       </div>
 
       <div class = "pic2">
-        <img src="/images/vol1.jpg" alt="101 week guide"></img>
+        <img src={`${process.env.PUBLIC_URL}/images/vol1.jpg`} alt="101 week guide"></img>
       </div>
 
     </div>
@@ -68,7 +68,7 @@ function About() {
      <div className = "p3">
 
      <div class = "pic3">
-        <img src="/images/about_intro.jpg" alt="Club Fair HtH"></img>
+        <img src={`${process.env.PUBLIC_URL}/images/about_intro.jpg`} alt="Club Fair HtH"></img>
         
       </div>
 
@@ -91,7 +91,7 @@ function About() {
       </div>
 
       <div class = "pic4">
-        <img src="/images/hobby.jpg" alt="Hiking"></img>
+        <img src={`${process.env.PUBLIC_URL}/images/hobby.jpg`} alt="Hiking"></img>
       </div>
 
     </div>
