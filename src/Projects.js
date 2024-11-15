@@ -9,16 +9,16 @@ function Projects() {
         <MouseFollower/>
 
         <div className='topLeft'>
-            <a href="#/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt="Website Icon" class="websiteIcon"/></a>
+            <a href="#/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt="Website Icon" className="websiteIcon"/></a>
             <a href="#/" className='nameTopLeft'>Valarie Wong</a>
         </div>
   
         <div className = 'header'>
-            <div class='titleLine'>
+            <div className='titleLine'>
                 <header><h1>Past <span style={{color: "#E3242B"}}>Projects</span></h1></header>
             </div>
 
-            <div class='titleLine'>
+            <div className='titleLine'>
             <nav>
                 <ul>
                     <li><a href="#/">Home</a></li>
@@ -35,7 +35,7 @@ function Projects() {
         </div>
 
         <div className = "opti">
-            <img src={`${process.env.PUBLIC_URL}/images/optiflow.png`} alt="OptiflowAI thumbnail" class="optiImg"/>
+            <img src={`${process.env.PUBLIC_URL}/images/optiflow.png`} alt="OptiflowAI thumbnail" className="optiImg"/>
 
             <div className='optiDes'>
                 <h2 className="optiTitle">Optiflow AI &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>AI, Canva</span></h2>
@@ -87,7 +87,7 @@ function Projects() {
                     for my contact info or click the button below to find me on LinkedIn.
                 </p>
 
-                <a href="https://www.linkedin.com/in/yi-yau-wong/" target="_blank" class = "button">My LinkedIn!</a>
+                <a href="https://www.linkedin.com/in/yi-yau-wong/" target="_blank" className = "button">My LinkedIn!</a>
             </div>
             
         </div>
