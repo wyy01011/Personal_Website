@@ -1,27 +1,17 @@
 .pixelCat {
   position: relative;
-  width: 80px;
+  width: 120px;
   z-index: 1;
   pointer-events: none;
-  animation: walking 8s linear infinite;
+  animation: walking 8s linear infinite; 
 }
+
 
 @keyframes walking {
-  0%   {left: 10vw; transform: scaleX(1);}
-  50%  {left: 80vw; transform: scaleX(1);}
-  51%  {left: 80vw; transform: scaleX(-1);}
-  100% {left: 10vw; transform: scaleX(-1);}
-}
 
-@media (min-width: 768px) {
-  .pixelCat {
-      width: 120px;
-  }
+0%   {left: 30vw; transform: scaleX(1);}
+50%  {left: 80vw; transform: scaleX(1);}
+51%  {left: 80vw; transform: scaleX(-1);}
+100% {left: 30vw; transform: scaleX(-1);}
   
-  @keyframes walking {
-      0%   {left: 30vw; transform: scaleX(1);}
-      50%  {left: 80vw; transform: scaleX(1);}
-      51%  {left: 80vw; transform: scaleX(-1);}
-      100% {left: 30vw; transform: scaleX(-1);}
-  }
 }

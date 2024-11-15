@@ -5,7 +5,7 @@ import Projects from './Projects';
 
 function AppRouter() {
   return (
-    <Router basename={process.env.NODE_ENV === 'development' ? '/' : '/Personal_Website'}>
+    <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/About" element={<About />} />
