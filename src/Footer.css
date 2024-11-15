@@ -4,32 +4,39 @@
     align-items: center;
 }
 
-.title{
-    margin-top: 100px;
-    margin-bottom: 60px;
-    font-size: 40px;
+.title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 30px;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
-.gmail{
-    width: 120px;
+.gmail, .github, .linkedin {
+    width: 80px;
     height: auto;
-    margin: 0px 50px;
+    margin: 0px 20px;
 }
 
-.github{
-    width: 95px;
-    height: auto;
-    margin: 0px 50px;
-}
+@media (min-width: 768px) {
+    .title {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
 
-.linkedin{
-    width: 95px;
-    height: auto;
-    margin: 0px 50px;
+    .gmail {
+        width: 120px;
+        margin: 0px 50px;
+    }
+
+    .github, .linkedin {
+        width: 95px;
+        margin: 0px 50px;
+    }
 }
