@@ -3,7 +3,9 @@ import './PixelCat.css';
 function PixelCat() {
   return (
     <div>
-        <img src={`${process.env.PUBLIC_URL}/images/PixelCat.gif`} alt='Pixel Cat' className='pixelCat'/>   
+      
+        <img src={`${process.env.PUBLIC_URL}/images/pixelCat.gif`} alt="Pixel Cat" className="pixelCat" />
+
     </div>    
   );
 }

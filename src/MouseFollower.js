@@ -29,7 +29,9 @@ function MouseFollower() {
 
     return (
         <div style={followerStyle}>
+            
             <img src={`${process.env.PUBLIC_URL}/images/heart.png`} alt="Mouse Follower" width="40px" height="40px" />
+
         </div>
     );
 }
