@@ -10,17 +10,19 @@ function Homepage() {
         <MouseFollower/>
 
         <div className='topLeft'>
-            <a href="#/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt="Website Icon" class="websiteIcon"/></a>
+
+            <a href="#/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt="Website Icon" className="websiteIcon"/></a>
             <a href="#/" className='nameTopLeft'>Valarie Wong</a>
+
             <PixelCat/>
         </div>
 
         <div className = 'header'>
-            <div class='titleLine'>
+            <div className='titleLine'>
                 <header><h1>Valarie Wong</h1></header>
             </div>
 
-            <div class='titleLine'>
+            <div className='titleLine'>
                 <nav>
                     <ul>
                         <li><a href="#/About">About</a></li>
@@ -37,11 +39,11 @@ function Homepage() {
         <div className = 'bigImgAndWordChangeContainer'>
             <div className = 'imgAndWordChangeContainer'>
 
-                <div class = "homepageMePicResumeContainer">
-                    <img src={`${process.env.PUBLIC_URL}/images/Homepage_me.jpg`} alt="Picture of me" class="imageMe"/>
+                <div className = "homepageMePicResumeContainer">
+                    <img src={`${process.env.PUBLIC_URL}/images/Homepage_me.jpg`} alt="Picture of me" className="imageMe"/>
 
-                    <div class = "middle">
-                        <a href="https://shorturl.at/Axm39" target="_blank"><div class="resume">Click for my resume</div></a>
+                    <div className = "middle">
+                        <a href="https://shorturl.at/Axm39" target="_blank"><div className="resume">Click for my resume</div></a>
                     </div>
                 </div>
 
