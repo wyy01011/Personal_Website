@@ -162,3 +162,56 @@ body.about{
     margin-top: 20px;
     margin-left: 50px;
   }
+
+  @media (max-width: 768px) {
+    body.about {
+      background: #F7CE68;
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      height: 100%; 
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .topLeft {
+      align-items: center;
+      margin-top: 15px;
+      max-width: 100%;
+    }
+  
+    .websiteIcon {
+      width: 15%;
+    }
+  
+    .nameTopLeft {
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    .p1, .p2, .p3, .p4 {
+      flex-direction: column;
+      align-items: center;
+      max-width: 90%;
+      gap: 20px;
+      margin: 20px 0;
+    }
+  
+    .pic1, .pic2, .pic3, .pic4 {
+      width: 100%;
+      max-width: 300px; 
+      height: auto;
+      margin: 0;
+    }
+  
+    .intro, .vol1, .vol2, .hobby {
+      max-width: 90%;
+      height: auto;
+      margin: 20px auto;
+      text-align: center;
+    }
+  }
+  
