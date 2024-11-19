@@ -192,28 +192,31 @@ body.about{
       text-align: center;
     }
   
-    .p1, .p2, .p3, .p4 {
-      display: flex;
-      justify-content: center;
+    .p1, .p3 {
+      flex-direction: column;
       align-items: center;
       text-align: center;
+      gap: 20px; /* Space between items */
+      margin: 20px auto;
+    }
 
-      flex-direction: column;
-      max-width: 90%;
-      gap: 20px;
+    .p2, .p4 {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      gap: 20px; /* Space between items */
+      margin: 20px auto;
     }
   
     .pic1, .pic2, .pic3, .pic4 {
-      width: 100%;
-      max-width: 300px; 
+      width: 90%; /* Full-width images with some padding */
+      max-width: 300px;
       height: auto;
-      margin: 0;
     }
   
-    .intro, .vol1, .vol2, .hobby {
-      max-width: 90%;
-      height: auto;
-      margin: 20px auto;
+    .vol1, .vol2, .intro, .hobby {
+      max-width: 90%; /* Adjust text width to fit small screens */
+      margin: 0 auto;
       text-align: center;
     }
   }
