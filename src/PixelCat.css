@@ -15,3 +15,9 @@
 100% {left: 30vw; transform: scaleX(-1);}
   
 }
+
+@media (max-width: 768px) {
+  .pixelCat{
+      display: none;
+  }
+}

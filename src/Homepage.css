@@ -202,12 +202,14 @@ ul li{
 
 @media (max-width: 768px) {
 
+
+
   body.homepage{
     background: #F7CE68;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%; 
+    height: 100%;
+    max-width: 100vw;
     flex-direction: column; 
 
     display: flex;
@@ -250,20 +252,26 @@ ul li{
     background-color: #e08d1b;
   }
 
-  .topLeft {
-    align-items: center;
-    margin-top: 15px;
-    max-width: 100vw;
+   .topLeft {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto; 
+    max-width: 100%;
   }
 
   .websiteIcon {
-    width: 15%;
+    width: 50px; 
+    margin-bottom: 10px; 
   }
 
   .nameTopLeft {
     font-size: 14px;
-    text-align: center;
+    text-align: center; 
+    margin-top: 5px; 
   }
+
 
   .bigImgAndWordChangeContainer {
     flex-direction: column;
