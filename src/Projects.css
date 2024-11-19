@@ -282,8 +282,8 @@ body.projects {
     align-items: center;
     padding: 10px;
     flex-wrap: wrap;
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: 20px auto;
   }
   
   .queenImg,
