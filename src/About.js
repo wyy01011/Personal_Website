@@ -67,7 +67,7 @@ function About() {
     
      <div className = "p3">
 
-     <div classNmae = "pic3">
+     <div className = "pic3">
         <img src={`${process.env.PUBLIC_URL}/images/about_intro.jpg`} alt="Club Fair HtH"/>      
       </div>
 
