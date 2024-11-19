@@ -33,3 +33,26 @@
     height: auto;
     margin: 0px 50px;
 }
+
+@media (max-width: 768px) {
+    .Footer {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .title {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 30px; 
+    }
+
+    .icons {
+        gap: 15px; 
+    }
+
+    .gmail,
+    .github,
+    .linkedin {
+        width: 80px; 
+        margin: 10px 0; 
+}}

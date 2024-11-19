@@ -211,20 +211,12 @@ body.projects {
 
 
 @media (max-width: 768px) {
-
-  * {
-    outline: 1px solid red;
-    max-width: 100vw;
-  }
-  
-
   body.projects{
     background: #F7CE68;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%; 
-    flex-direction: column; 
 
     display: flex;
     justify-content: center;
@@ -236,7 +228,6 @@ body.projects {
     text-align: center;
     padding: 10px;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
 
@@ -267,14 +258,13 @@ body.projects {
   }
   
   .topLeft {
-    flex-direction: column;
     align-items: center;
     margin-top: 15px;
     max-width: 100vw;
   }
 
   .websiteIcon {
-    width: 50px;
+    width: 15%;
   }
 
   .nameTopLeft {
@@ -282,44 +272,44 @@ body.projects {
     text-align: center;
   }
   
-    .subheader {
-      font-size: 16px;
-      margin-bottom: 30px;
-    }
-  
-    .oddQueen,
-    .RtR,
-    .opti,
-    .val {
-      width: 80%;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-      flex-wrap: wrap;
-    }
-  
-    .queenImg,
-    .rtrImg,
-    .optiImg,
-    .valImg {
-      width: 150px;
-      margin: 0 auto;
-    }
-  
-    .queenDes,
-    .rtrDes,
-    .optiDes,
-    .valDes {
-      width: 90%;
-      margin: 20px 0;
-      height: auto;
-    }
-  
-    .button {
-      width: 200px;
-      height: 30px;
-      font-size: 14px;
-    }
+  .subheader {
+    font-size: 16px;
+    margin-bottom: 30px;
   }
+  
+  .oddQueen,
+  .RtR,
+  .opti,
+  .val {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 90vw;
+  }
+  
+  .queenImg,
+  .rtrImg,
+  .optiImg,
+  .valImg {
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  .queenDes,
+  .rtrDes,
+  .optiDes,
+  .valDes {
+    width: 90%;
+    margin: 20px 0;
+    height: auto;
+  }
+  
+  .button {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
 
 
