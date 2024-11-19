@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
-body {
+body.homepage {
   background: linear-gradient(60deg, #f0e9d4, #F7CE68);
   color: rgb(0, 0, 0);
   padding: 40px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Fira Code', monospace; */
 
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -13,12 +14,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-@media (max-width: 1000px) {
-  html body {
-    background: rgb(210, 52, 105) !important;
-  }
+  width: 100%;
+  height: 100%;
+
+  overflow-x: hidden;
 }
 
 .topLeft {
@@ -188,7 +188,6 @@ ul li{
   margin-top: -500px;
   margin-bottom: 100px;
   font-size: 50px;
-
 }
 
 .iAmWord {
@@ -197,4 +196,114 @@ ul li{
   margin-bottom: 100px;
   margin-left: 620px;
   font-size: 70px;
+}
+
+
+@media (max-width: 768px) {
+
+  .homepage-body {
+    background: #F7CE68;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    flex-direction: column; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .header nav ul li {
+    margin-right: 0;
+  }
+
+  .header nav ul li a {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f1a01f;
+    color: black;
+    text-decoration: none;
+  }
+
+  .header nav ul li a:hover {
+    background-color: #e08d1b;
+  }
+
+  .topLeft {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .websiteIcon {
+    width: 50px;
+  }
+
+  .nameTopLeft {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .bigImgAndWordChangeContainer {
+    flex-direction: column;
+    height: auto; 
+    margin-top: 20px; 
+  }
+
+  .homepageMePicResumeContainer {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .imageMe {
+    max-width: 150px; 
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .iAmWord {
+    margin: 10px auto;
+    font-size: 24px; 
+    text-align: center;
+  }
+
+  
+  .skills img, .work img {
+    width: 60px; 
+    height: 60px;
+    margin: 10px;
+  }
+
+  .sectionSkilledAt, .sectionWork {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .work img[alt="Prime Concepts Limited"],
+  .work img[alt="Kumon"],
+  .work img[alt="LukAdvisor"] {
+    width: 100px; 
+  }
 }

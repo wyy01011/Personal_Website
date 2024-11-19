@@ -1,7 +1,9 @@
 import MouseFollower from './MouseFollower';
 import Footer from './Footer';
+import './About.css';
 
 function About() {
+  document.body.className = 'about';
   return (
 
     <div>

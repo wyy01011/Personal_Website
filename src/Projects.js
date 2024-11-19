@@ -1,7 +1,10 @@
 import MouseFollower from './MouseFollower';
 import Footer from './Footer';
+import './Projects.css';
 
 function Projects() {
+    document.body.className = 'projects';
+
     return (
   
     <div>

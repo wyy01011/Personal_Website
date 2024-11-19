@@ -1,11 +1,13 @@
 import WordChanger from './WordChanger';
 import Footer from './Footer';
 import MouseFollower from './MouseFollower';
-import PixelCat from './PixelCat'
+import PixelCat from './PixelCat';
+import './Homepage.css';
 
 function Homepage() {
+  document.body.className = 'homepage';
   return (
-    <div >
+    <div>
 
         <MouseFollower/>
 
@@ -90,9 +92,6 @@ function Homepage() {
             <img src={`${process.env.PUBLIC_URL}/images/kumon.png`} alt="Kumon" width="400px" />
             <img src={`${process.env.PUBLIC_URL}/images/lukadvisor.png`} alt="LukAdvisor" width="250px" />
         </div>
-
-
-
 
         <Footer/>
 
