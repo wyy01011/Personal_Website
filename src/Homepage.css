@@ -27,6 +27,7 @@ body.homepage {
   gap: 8px;
   margin-left: 10px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .websiteIcon {
