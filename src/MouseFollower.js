@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './MouseFollower.css';
 
 function MouseFollower() {
     const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -28,7 +29,7 @@ function MouseFollower() {
     
 
     return (
-        <div style={followerStyle}>
+        <div className = "mouseFollower" style={followerStyle}>
             
             <img src={`${process.env.PUBLIC_URL}/images/heart.png`} alt="Mouse Follower" width="40px" height="40px" />
 
