@@ -193,11 +193,14 @@ body.about{
     }
   
     .p1, .p2, .p3, .p4 {
-      flex-direction: column;
+      display: flex;
+      justify-content: center;
       align-items: center;
+      text-align: center;
+
+      flex-direction: column;
       max-width: 90%;
       gap: 20px;
-      margin: 20px 0;
     }
   
     .pic1, .pic2, .pic3, .pic4 {
