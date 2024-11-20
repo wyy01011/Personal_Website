@@ -202,10 +202,6 @@ ul li{
 
 @media (max-width: 768px) {
 
-  * {
-    border: 1px solid red; /* Add red outline to all child elements */
-  }
-
   body.homepage{
     background: #F7CE68;
     margin: 0;
