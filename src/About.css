@@ -181,6 +181,7 @@ body.about{
       align-items: center;
       margin-top: 15px;
       max-width: 100%;
+      margin-left: 0px;
     }
   
     .websiteIcon {

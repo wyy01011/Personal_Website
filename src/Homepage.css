@@ -202,6 +202,10 @@ ul li{
 
 @media (max-width: 768px) {
 
+  * {
+    border: 1px solid red; /* Add red outline to all child elements */
+  }
+
   body.homepage{
     background: #F7CE68;
     margin: 0;
@@ -218,7 +222,6 @@ ul li{
 
   .header {
     text-align: center;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -250,36 +253,32 @@ ul li{
     background-color: #e08d1b;
   }
 
-   .topLeft {
+  .topLeft {
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    margin: 0 10px; 
     max-width: 100%;
+    margin-left: 0px;
   }
 
   .websiteIcon {
     width: 50px; 
-    margin-bottom: 10px; 
   }
 
   .nameTopLeft {
-    font-size: 14px;
-    text-align: center; 
-    margin-top: 5px; 
+    display: none;
   }
 
-
   .bigImgAndWordChangeContainer {
+    display: flex;
     flex-direction: column;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap;
-    height: auto; 
-    margin-top: 40px; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     max-width: 90%; 
+    height: auto; 
+    margin: 20px auto;
   }
 
   .homepageMePicResumeContainer {
