@@ -201,9 +201,9 @@ ul li{
 
 @media (max-width: 768px) {
 
-  * {
-    border: 1px solid red; /* Add a red border to all elements */
-  }
+  /* * {
+    border: 1px solid red; 
+  } */
 
   #root {
     max-width: 100%;
