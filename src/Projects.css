@@ -84,7 +84,7 @@ body.projects {
 .queenDes{
     margin-top: 40px;
     margin-right: 50px;
-    width: 650px;
+    max-width: 100%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
@@ -130,7 +130,7 @@ body.projects {
 
 .rtrDes{
     margin-top: 40px;
-    width: 650px;
+    max-width: 100%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
@@ -164,7 +164,7 @@ body.projects {
 
 .optiDes{
     margin-top: 40px;
-    width: 650px;
+    max-width: 100%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
@@ -199,15 +199,30 @@ body.projects {
 
 .valDes{
     margin-top: 140px;
-    width: 650px;
+    max-width: 100%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
     margin-bottom: 20px;
   }
 
+  .skills, .work, .p1, .p3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
 @media (max-width: 768px) {
+
+  #root {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+
   body.projects{
     background: #F7CE68;
     margin: 0;
@@ -256,13 +271,6 @@ body.projects {
   .header nav ul li a:hover {
     background-color: #e08d1b;
   }
-  
-  .topLeft {
-    align-items: center;
-    margin-top: 15px;
-    max-width: 100%;
-    margin-left: 0px;
-  }
 
   .websiteIcon {
     width: 15%;
@@ -307,6 +315,15 @@ body.projects {
     width: 90%;
     margin: 20px 0;
     height: auto;
+  }
+
+  .optiTitle, .rtrTitle, .queenTitle, .valTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
   }
   
   .button {

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import './WordChanger.css';
 
 const wordArray = ['a Coder', 'a Computer Science Student', 'Hardworking', 'Curious', 
   'a Badminton Player', 'a Gamer', 'Adventurous', 'Trilingual', 'Organized'];

@@ -164,11 +164,18 @@ body.about{
   }
 
   @media (max-width: 768px) {
+    #root {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 0 auto;
+      padding: 0;
+  }
+
     body.about {
       background: #F7CE68;
       margin: 0;
       padding: 0;
-      max-width: 100%;
+      width: 100%;
       height: 100%; 
 
       display: flex;
@@ -206,8 +213,16 @@ body.about{
       margin-top: 40px;
     }
 
+    .p2 {
+      margin-top: 40px;
+    }
+
     .p3 {
-      margin-top: 0px;
+      margin-top: 10px;
+    }
+
+    .p4{
+      margin-top: 70px;
     }
 
     .p2, .p4 {
@@ -215,7 +230,6 @@ body.about{
       flex-direction: column-reverse;
       align-items: center;
       text-align: center;
-      margin-top: 0px;
       gap: 0px; 
     }
   

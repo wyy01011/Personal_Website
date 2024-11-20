@@ -11,7 +11,7 @@ function Homepage() {
 
         <MouseFollower/>
 
-        <div className='topLeft'>
+        <div className='topLeftH'>
 
             <a href="#/"><img src={`${process.env.PUBLIC_URL}/images/icon.png`} alt="Website Icon" className="websiteIcon"/></a>
             <a href="#/" className='nameTopLeft'>Valarie Wong</a>
@@ -19,12 +19,12 @@ function Homepage() {
             <PixelCat/>
         </div>
 
-        <div className = 'header'>
-            <div className='titleLine'>
+        <div className = 'headerH'>
+            <div className='titleLineH'>
                 <header><h1>Valarie Wong</h1></header>
             </div>
 
-            <div className='titleLine'>
+            <div className='titleLineH'>
                 <nav>
                     <ul>
                         <li><a href="#/About">About</a></li>
@@ -52,7 +52,7 @@ function Homepage() {
             </div>
 
             <div className='iAmWord'>
-                    <h2 style={{ fontSize: '70px', width: '5000px', display: 'inline' }}><span style={{fontSize:'40px', marginBottom:'20px'}}>Hello World! </span><br/> I am <span class="wordChange"><WordChanger /></span> </h2>
+                    <h2 style={{ fontSize: '70px', width: '100%', display: 'inline' }}><span style={{fontSize:'40px', marginBottom:'20px'}}>Hello World! </span><br/> I am <span class="wordChange"><WordChanger /></span> </h2>
             </div>
         </div>
 
@@ -88,9 +88,9 @@ function Homepage() {
             <img src={`${process.env.PUBLIC_URL}/images/uottawa.png`} alt="uOttawa" />
             <img src={`${process.env.PUBLIC_URL}/images/hth.png`} alt="Hack the Hill" />
             
-            <img src={`${process.env.PUBLIC_URL}/images/prime.png`} alt="Prime Concepts Limited" width="250px" />
-            <img src={`${process.env.PUBLIC_URL}/images/kumon.png`} alt="Kumon" width="400px" />
-            <img src={`${process.env.PUBLIC_URL}/images/lukadvisor.png`} alt="LukAdvisor" width="250px" />
+            <img src={`${process.env.PUBLIC_URL}/images/prime.png`} alt="Prime Concepts Limited" width="100%" />
+            <img src={`${process.env.PUBLIC_URL}/images/kumon.png`} alt="Kumon" width="100%" />
+            <img src={`${process.env.PUBLIC_URL}/images/lukadvisor.png`} alt="LukAdvisor" width="100%" />
         </div>
 
         <Footer/>
