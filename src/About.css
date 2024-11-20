@@ -216,6 +216,7 @@ ul li{
     }
   
     .p1, .p3 {
+      padding: 15px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -241,10 +242,12 @@ ul li{
     }
 
     .p2, .p4 {
+      padding: 15px;
       display: flex;
       flex-direction: column-reverse;
       align-items: center;
       text-align: center;
+      margin-top: 30px;
       gap: 0px; 
     }
   
@@ -256,10 +259,14 @@ ul li{
     }
   
     .vol1, .vol2, .intro, .hobby {
+      position: relative;
       max-width: 90%; 
       margin: 0 auto;
       text-align: center;
       margin-top: 0px;
+      max-height: 100%;
+      width: auto;
+      height: auto;
     }
   }
   
