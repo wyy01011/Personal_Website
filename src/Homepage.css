@@ -40,14 +40,6 @@ body.homepage {
   white-space: nowrap;
   text-decoration: none; 
 }
-
-.WordChanger {
-  font-family: 'Fira Code', monospace;
-  font-size: 40px;
-  margin-top: 100px;
-  margin-right: 30px;
-  width: 600px;
-}
   
 @keyframes fadeInAnimation {
   0% {opacity: 0;}
@@ -167,7 +159,17 @@ ul li{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-  
+
+.WordChangerContainer{
+  font-family: 'Fira Code', monospace;
+  font-size: 40px;
+  max-width: 100%;
+  margin-top: 100px;
+  margin-right: 30px;
+  width: 85%;
+
+}
+ 
 .homepageMePicResumeContainer:hover .imageMe {
   opacity: 0.3;
 }
@@ -192,10 +194,9 @@ ul li{
 
 .iAmWord {
   font-family: 'Fira Code', monospace;
-  margin-top: -380px; 
-  margin-bottom: 100px;
+  margin-top: -350px; 
+  margin-bottom: 200px;
   margin-left: 620px;
-  font-size: 70px;
 }
 
 
@@ -218,6 +219,17 @@ ul li{
 #root > * {
   max-width: 100%;
   overflow: hidden;
+}
+
+.WordChangerContainer{
+  max-width: 85%;
+  font-size: 30px;
+  margin: 100px auto 0;
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -333,6 +345,10 @@ ul li{
     text-align: center;
     max-width: 100%;
     max-height: 100%;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
   }
 
   .skills, .work{

@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './WordChanger.css';
 
 const wordArray = ['a Coder', 'a Computer Science Student', 'Hardworking', 'Curious', 
   'a Badminton Player', 'a Gamer', 'Adventurous', 'Trilingual', 'Organized'];
@@ -39,7 +38,7 @@ const WordChanger = () => {
 
   return (
     <div className="WordChanger">
-      <h2 style={{fontSize: '70px', marginTop: '-100px'}}>
+      <h2 style={{ marginTop: '-100px'}}>
         {text}
         <span className="cursor">|</span>
       </h2>
