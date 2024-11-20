@@ -193,29 +193,29 @@ body.about{
     }
   
     .p1, .p3 {
+      display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      gap: 20px; /* Space between items */
-      margin: 20px auto;
+      gap: 20px; 
     }
 
     .p2, .p4 {
+      display: flex;
       flex-direction: column-reverse;
       align-items: center;
       text-align: center;
-      gap: 20px; /* Space between items */
-      margin: 20px auto;
+      gap: 20px; 
     }
   
     .pic1, .pic2, .pic3, .pic4 {
-      width: 90%; /* Full-width images with some padding */
+      width: 90%;
       max-width: 300px;
       height: auto;
     }
   
     .vol1, .vol2, .intro, .hobby {
-      max-width: 90%; /* Adjust text width to fit small screens */
+      max-width: 90%; 
       margin: 0 auto;
       text-align: center;
     }
