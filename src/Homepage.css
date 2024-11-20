@@ -237,6 +237,15 @@ ul li{
     overflow-x: hidden;
   }
 
+  .middle{
+    display: none;
+  }
+
+    
+.homepageMePicResumeContainer:hover .imageMe {
+  opacity: 1;
+}
+
   .headerH {
     text-align: center;
     display: flex;
@@ -314,7 +323,8 @@ ul li{
   .imageMe {
     max-width: 250px; 
     height: auto;
-    margin: 0 auto;
+    margin: 30px auto 0px;
+
   }
 
   .iAmWord {

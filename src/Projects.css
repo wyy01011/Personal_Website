@@ -15,7 +15,7 @@ body.projects {
   justify-content: center;
   align-items: center;
 
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -296,7 +296,7 @@ body.projects {
     padding: 10px;
     flex-wrap: wrap;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
     border: none;
   }
   
@@ -318,12 +318,12 @@ body.projects {
   }
 
   .optiTitle, .rtrTitle, .queenTitle, .valTitle{
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 15px;
+
   }
   
   .button {
