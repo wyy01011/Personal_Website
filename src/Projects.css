@@ -84,11 +84,12 @@ body.projects {
 .queenDes{
     margin-top: 40px;
     margin-right: 50px;
-    max-width: 100%;
+    max-width: 80%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
     margin-bottom: 20px;
+    margin-right: 20px;
   }
 
   .button {
@@ -130,11 +131,12 @@ body.projects {
 
 .rtrDes{
     margin-top: 40px;
-    max-width: 100%;
+    max-width: 80%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
     margin-bottom: 20px;
+    margin-right: 20px;
   }
 
 .opti {
@@ -164,11 +166,12 @@ body.projects {
 
 .optiDes{
     margin-top: 40px;
-    max-width: 100%;
+    max-width: 80%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
     margin-bottom: 20px;
+    margin-right: 20px;
   }
 
 
@@ -199,18 +202,13 @@ body.projects {
 
 .valDes{
     margin-top: 140px;
-    max-width: 100%;
+    max-width: 80%;
     height: 300px;
     align-content: left;
     line-height: 1.9;
     margin-bottom: 20px;
+    margin-right: 20px;
   }
-
-  .skills, .work, .p1, .p3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 
 
