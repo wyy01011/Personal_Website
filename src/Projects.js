@@ -26,7 +26,7 @@ function Projects() {
                 <ul>
                     <li><a href="#/">Home</a></li>
                     <li><a href="#/About">About</a></li>
-                    <li><a href="https://shorturl.at/Axm39" target="_blank">Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1_KMwGjWEeKP7sVC6FxLce6zEZbFOD5pC/view?usp=drive_link" target="_blank">Resume</a></li>
                 </ul>
             </nav>
         </div>
