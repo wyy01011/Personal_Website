@@ -37,6 +37,20 @@ function Projects() {
             <p>Click to view all the details of projects I have worked on so far!</p>
         </div>
 
+        <div className = "uniSwap">
+            <img src={`${process.env.PUBLIC_URL}/images/uniSwap.png`} alt="uniSwap thumbnail" className="uniSwapImg"/>
+
+            <div className='uniSwapDes'>
+                <h2 className="uniSwapTitle">uniSwap &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>Gadget, UI/X, HTML, CSS, React, JS</span></h2>
+                <p>This app is a peer-to-peer shop platform for uOttawa students to buy, sell, or rent items, featuring user ratings and reviews to ensure trust and a secure 
+                    marketplace experience. It addresses several real-world problems faced by university students, including affordability, sustainability 
+                    and community building. This is our team's submission for uOttaHack 7 and I took care most of the UI/X portion!</p>
+
+                <a href="https://uniswap--development.gadget.app/" target="_blank" class = "button">Learn More!</a>
+            </div>
+            
+        </div>
+
         <div className = "opti">
             <img src={`${process.env.PUBLIC_URL}/images/optiflow.png`} alt="OptiflowAI thumbnail" className="optiImg"/>
 

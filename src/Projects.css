@@ -160,11 +160,11 @@ body.projects {
     margin-bottom: 30px;
   }
 
-.optiTitle{
+.optiTitle, .uniSwapTitle{
     line-height: 1.1;
 }
 
-.optiDes{
+.optiDes, .uniSwapDes{
     margin-top: 40px;
     max-width: 80%;
     height: 300px;
@@ -172,6 +172,27 @@ body.projects {
     line-height: 1.9;
     margin-bottom: 20px;
     margin-right: 20px;
+  }
+
+.uniSwap {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #97B1BD;
+    border-radius: 25px;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.uniSwapImg{
+    width: 250px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 30px;
   }
 
 
