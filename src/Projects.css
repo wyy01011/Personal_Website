@@ -187,13 +187,21 @@ body.projects {
     animation-fill-mode: forwards;
 }
 
-.uniSwapImg, .numeriaImg{
+.uniSwapImg{
     width: 250px;
     height: auto;
     margin-left: 50px;
     margin-right: 20px;
     margin-bottom: 30px;
   }
+
+.numeriaImg{
+  width: 320px;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
 
 
 .val {

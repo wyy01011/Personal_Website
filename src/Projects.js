@@ -41,7 +41,7 @@ function Projects() {
             <img src={`${process.env.PUBLIC_URL}/images/numeria.png`} alt="numeria thumbnail" className="numeriaImg"/>
 
             <div className='numeriaDes'>
-                <h2 className="numeriaTitle">uniSwap &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>AI (DeepSeek API), Python, UI/X, TypeScript, CSS, React, JS</span></h2>
+                <h2 className="numeriaTitle">Numeria &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>AI (DeepSeek API), Python, UI/X, TypeScript, CSS, React, JS</span></h2>
                 <p>Numeria is a maths game for children aged 5-12, aiming to address early learning gaps and cognitive development. 
                     Players will get tailored generated questions according to their grade, country of residence and school curriculum. 
                     AI generated explanations will also be provided when users get a question wrong. This game follows a storyline, where 
