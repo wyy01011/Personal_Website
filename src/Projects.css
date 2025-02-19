@@ -160,11 +160,11 @@ body.projects {
     margin-bottom: 30px;
   }
 
-.optiTitle, .uniSwapTitle{
+.optiTitle, .uniSwapTitle, .numeriaTitle{
     line-height: 1.1;
 }
 
-.optiDes, .uniSwapDes{
+.optiDes, .uniSwapDes, .numeriaDes{
     margin-top: 40px;
     max-width: 80%;
     height: 300px;
@@ -174,7 +174,7 @@ body.projects {
     margin-right: 20px;
   }
 
-.uniSwap {
+.uniSwap, .numeria {
     margin-top: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -187,7 +187,7 @@ body.projects {
     animation-fill-mode: forwards;
 }
 
-.uniSwapImg{
+.uniSwapImg, .numeriaImg{
     width: 250px;
     height: auto;
     margin-left: 50px;

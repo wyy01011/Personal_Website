@@ -37,6 +37,22 @@ function Projects() {
             <p>Click to view all the details of projects I have worked on so far!</p>
         </div>
 
+        <div className = "numeria">
+            <img src={`${process.env.PUBLIC_URL}/images/numeria.png`} alt="numeria thumbnail" className="numeriaImg"/>
+
+            <div className='numeriaDes'>
+                <h2 className="numeriaTitle">uniSwap &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>AI (DeepSeek API), Python, UI/X, TypeScript, CSS, React, JS</span></h2>
+                <p>Numeria is a maths game for children aged 5-12, aiming to address early learning gaps and cognitive development. 
+                    Players will get tailored generated questions according to their grade, country of residence and school curriculum. 
+                    AI generated explanations will also be provided when users get a question wrong. This game follows a storyline, where 
+                    players get to choose an animal to act as and explore different islands (with each island as a math subject with
+                     practice questions). This is our team's submission for Ellehacks 9!</p>
+
+                <a href="https://lnkd.in/eJidkmQA" target="_blank" class = "button">Learn More!</a>
+            </div>
+            
+        </div>
+
         <div className = "uniSwap">
             <img src={`${process.env.PUBLIC_URL}/images/uniSwap.png`} alt="uniSwap thumbnail" className="uniSwapImg"/>
 
