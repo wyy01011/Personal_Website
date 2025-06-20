@@ -88,6 +88,7 @@ function Homepage() {
         <section className="sectionWork"><h2>From <span style={{color: "#E3242B"}}>Working</span> With...</h2></section>
 
         <div className='work'>
+            <img src={`${process.env.PUBLIC_URL}/images/td.png`} alt="TD" width="100%" />
             <img src={`${process.env.PUBLIC_URL}/images/hodlnaut.png`} alt="Hodlnaut" />
             <img src={`${process.env.PUBLIC_URL}/images/toyeast.png`} alt="Toyeast" />
             <img src={`${process.env.PUBLIC_URL}/images/uottawa.png`} alt="uOttawa" />
@@ -96,6 +97,8 @@ function Homepage() {
             <img src={`${process.env.PUBLIC_URL}/images/prime.png`} alt="Prime Concepts Limited" width="100%" />
             <img src={`${process.env.PUBLIC_URL}/images/kumon.png`} alt="Kumon" width="100%" />
             <img src={`${process.env.PUBLIC_URL}/images/lukadvisor.png`} alt="LukAdvisor" width="100%" />
+            <img src={`${process.env.PUBLIC_URL}/images/craiedl_logo.png`} alt="Craiedl" width="100%" />
+            
         </div>
 
         <Footer/>
