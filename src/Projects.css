@@ -310,7 +310,9 @@ body.projects {
   .oddQueen,
   .RtR,
   .opti,
-  .val {
+  .val,
+  .numeria,
+  .uniSwap {
     flex-direction: column;
     align-items: center;
     padding: 10px;
@@ -323,7 +325,9 @@ body.projects {
   .queenImg,
   .rtrImg,
   .optiImg,
-  .valImg {
+  .valImg,
+  .uniSwapImg,
+  .numeriaImg {
     width: 150px;
     margin: 0 auto;
   }
@@ -331,13 +335,15 @@ body.projects {
   .queenDes,
   .rtrDes,
   .optiDes,
-  .valDes {
+  .valDes,
+  .numeriaDes,
+  .uniSwapDes {
     width: 90%;
     margin: 20px 0;
     height: auto;
   }
 
-  .optiTitle, .rtrTitle, .queenTitle, .valTitle{
+  .optiTitle, .rtrTitle, .queenTitle, .valTitle, .numeriaTitle, .uniSwapTitle{
     width: 100%;
     display: flex;
     justify-content: center;

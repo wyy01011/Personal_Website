@@ -48,7 +48,7 @@ function Projects() {
                     players get to choose an animal to act as and explore different islands (with each island as a math subject with
                      practice questions). This is our team's submission for Ellehacks 9!</p>
 
-                <a href="https://lnkd.in/eJidkmQA" target="_blank" class = "button">Learn More!</a>
+                <a href="https://github.com/wyy01011/Numeria" target="_blank" class = "button">Learn More!</a>
             </div>
             
         </div>
@@ -62,7 +62,7 @@ function Projects() {
                     marketplace experience. It addresses several real-world problems faced by university students, including affordability, sustainability 
                     and community building. This is our team's submission for uOttaHack 7 and I took care most of the UI/X portion!</p>
 
-                <a href="https://uniswap--development.gadget.app/" target="_blank" class = "button">Learn More!</a>
+                <a href="https://www.linkedin.com/posts/yi-yau-wong_uottahack7-uottahack-hackathon-activity-7287107518739144705-RVC-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUiTHAByWegJpmWETRo5Lw2ChwQzH_OXak" target="_blank" class = "button">Learn More!</a>
             </div>
             
         </div>
