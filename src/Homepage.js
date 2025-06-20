@@ -97,7 +97,7 @@ function Homepage() {
             <img src={`${process.env.PUBLIC_URL}/images/prime.png`} alt="Prime Concepts Limited" width="100%" />
             <img src={`${process.env.PUBLIC_URL}/images/kumon.png`} alt="Kumon" width="100%" />
             <img src={`${process.env.PUBLIC_URL}/images/lukadvisor.png`} alt="LukAdvisor" width="100%" />
-            <img src={`${process.env.PUBLIC_URL}/images/craiedl_logo.png`} alt="Craiedl" width="100%" />
+            
             
         </div>
 
