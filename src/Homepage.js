@@ -29,7 +29,6 @@ function Homepage() {
                     <ul>
                         <li><a href="#/About">About</a></li>
                         <li><a href="#/Projects">Projects</a></li>
-                        <li><a href="https://drive.google.com/file/d/1_KMwGjWEeKP7sVC6FxLce6zEZbFOD5pC/view?usp=drive_link" target="_blank">Resume</a></li>
                     </ul>
                 </nav>
 
@@ -44,9 +43,6 @@ function Homepage() {
                 <div className = "homepageMePicResumeContainer">
                     <img src={`${process.env.PUBLIC_URL}/images/Homepage_me.jpg`} alt="Picture of me" className="imageMe"/>
 
-                    <div className = "middle">
-                        <a href="https://drive.google.com/file/d/1_KMwGjWEeKP7sVC6FxLce6zEZbFOD5pC/view?usp=drive_link" target="_blank"><div className="resume">Click for my resume</div></a>
-                    </div>
                 </div>
 
             </div>
