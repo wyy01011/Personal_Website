@@ -84,8 +84,8 @@ function About() {
     <div className = "p4">
 
       <div className = "hobby">
-        <p>Outdoors, I enjoy <span style={{fontWeight: 'bold'}}>traveling</span> (I miss it so badly), <span style={{fontWeight: 'bold'}}>badminton, going to the gym, swimming, and running</span>; I’m currently training for a half marathon, with my personal best at 10 km in 
-          52 minutes. I recently tried rock climbing and can already see it becoming a favourite! Indoors, I love listening to music and gaming (usually getting 
+        <p>My hobbies change all the time. Outdoors, I enjoy <span style={{fontWeight: 'bold'}}>traveling</span> (I miss it so badly), <span style={{fontWeight: 'bold'}}>badminton, going to the gym, swimming, and running</span>;  
+          Indoors, I love listening to music and gaming (usually getting 
           carried by friends). My favourite artists are Ian Chan and Shiga Lin, and there’s nothing like baking to their mellow songs—it’s my idea of a perfect 
           evening!</p>
       </div>

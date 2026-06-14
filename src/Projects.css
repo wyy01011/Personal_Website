@@ -19,6 +19,29 @@ body.projects {
   height: 100%;
 }
 
+body.projects p,
+body.projects nav a {
+  font-size: 21px;
+}
+
+body.projects .header h1 {
+  font-size: 37px;
+}
+
+body.projects .sectorTitle,
+body.projects .numeriaTitle,
+body.projects .uniSwapTitle,
+body.projects .optiTitle,
+body.projects .rtrTitle,
+body.projects .queenTitle,
+body.projects .valTitle {
+  font-size: 29px;
+}
+
+body.projects .Footer .title {
+  font-size: 45px;
+}
+
 @keyframes fadeInAnimation {
     0% {opacity: 0;}
     100% {opacity: 1;}
@@ -36,7 +59,7 @@ body.projects {
 }
   
 .nameTopLeft {
-    font-size: 18px;
+    font-size: 23px;
     color: black;
     white-space: nowrap;
     text-decoration: none; 
@@ -53,8 +76,12 @@ body.projects {
 
 .subheader{
     text-align: center;
-    font-size: 18px;
+    font-size: 23px;
     margin-bottom: 50px;
+}
+
+body.projects .subheader p {
+    font-size: 23px;
 }
 
 .oddQueen {
@@ -96,7 +123,7 @@ body.projects {
     background-color: #EC876C;
     color: #ffffff;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px 10px;
     font-family: Arial;
     text-align: center;
@@ -160,11 +187,11 @@ body.projects {
     margin-bottom: 30px;
   }
 
-.optiTitle, .uniSwapTitle, .numeriaTitle{
+.optiTitle, .uniSwapTitle, .numeriaTitle, .sectorTitle{
     line-height: 1.1;
 }
 
-.optiDes, .uniSwapDes, .numeriaDes{
+.optiDes, .uniSwapDes, .numeriaDes, .sectorDes{
     margin-top: 40px;
     max-width: 80%;
     height: 300px;
@@ -174,7 +201,7 @@ body.projects {
     margin-right: 20px;
   }
 
-.uniSwap, .numeria {
+.uniSwap, .numeria, .sector {
     margin-top: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -187,7 +214,7 @@ body.projects {
     animation-fill-mode: forwards;
 }
 
-.uniSwapImg, .numeriaImg{
+.uniSwapImg, .numeriaImg, .sectorImg{
     width: 250px;
     height: auto;
     margin-left: 50px;
@@ -280,7 +307,7 @@ body.projects {
   }
 
   .header nav ul li a {
-    font-size: 16px;
+    font-size: 21px;
     padding: 10px;
     text-align: center;
     background-color: #f1a01f;
@@ -297,14 +324,18 @@ body.projects {
   }
 
   .nameTopLeft {
-    font-size: 14px;
+    font-size: 19px;
     text-align: center;
   }
   
   .subheader {
-    font-size: 16px;
+    font-size: 21px;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+
+  body.projects .subheader p {
+    font-size: 21px;
   }
   
   .oddQueen,
@@ -312,7 +343,8 @@ body.projects {
   .opti,
   .val,
   .numeria,
-  .uniSwap {
+  .uniSwap,
+  .sector {
     flex-direction: column;
     align-items: center;
     padding: 10px;
@@ -327,7 +359,8 @@ body.projects {
   .optiImg,
   .valImg,
   .uniSwapImg,
-  .numeriaImg {
+  .numeriaImg,
+  .sectorImg {
     width: 150px;
     margin: 0 auto;
   }
@@ -337,13 +370,14 @@ body.projects {
   .optiDes,
   .valDes,
   .numeriaDes,
-  .uniSwapDes {
+  .uniSwapDes,
+  .sectorDes {
     width: 90%;
     margin: 20px 0;
     height: auto;
   }
 
-  .optiTitle, .rtrTitle, .queenTitle, .valTitle, .numeriaTitle, .uniSwapTitle{
+  .optiTitle, .rtrTitle, .queenTitle, .valTitle, .numeriaTitle, .uniSwapTitle, .sectorTitle{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -355,7 +389,11 @@ body.projects {
   .button {
     width: 200px;
     height: 30px;
-    font-size: 14px;
+    font-size: 19px;
+  }
+
+  body.projects .Footer .title {
+    font-size: 35px;
   }
 }
 

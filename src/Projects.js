@@ -36,6 +36,19 @@ function Projects() {
             <p>Click to view all the details of projects I have worked on so far!</p>
         </div>
 
+        <div className = "sector">
+            <img src={`${process.env.PUBLIC_URL}/images/sector.png`} alt="Financial Sector AI Agent thumbnail" className="sectorImg"/>
+
+            <div className='sectorDes'>
+                <h2 className="sectorTitle">Financial Sector AI Agent &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>LangGraph, Python, yfinance, AI Agents</span></h2>
+                <p>I took the initiative to build this side project to deepen my understanding of agentic AI and financial technology. The application uses LangGraph to coordinate a stateful AI-agent workflow and yfinance to retrieve market data for financial-sector analysis. 
+                    Through this project, I am gaining hands-on experience with tool-calling agents, workflow orchestration, data processing and building reliable AI systems.</p>
+
+                <a href="https://github.com/wyy01011/sector-agent" target="_blank" rel="noreferrer" className="button">Learn More!</a>
+            </div>
+
+        </div>
+
         <div className = "numeria">
             <img src={`${process.env.PUBLIC_URL}/images/numeria.png`} alt="numeria thumbnail" className="numeriaImg"/>
 

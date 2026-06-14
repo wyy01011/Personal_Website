@@ -71,6 +71,7 @@ function Homepage() {
             <img src={`${process.env.PUBLIC_URL}/images/react.png`} alt="React" />
             <img src={`${process.env.PUBLIC_URL}/images/sql.png`} alt="SQL" />
             <img src={`${process.env.PUBLIC_URL}/images/pytorch.png`} alt="PyTorch" />
+            <img src={`${process.env.PUBLIC_URL}/images/langgraph.png`} alt="LangGraph" />
             <img src={`${process.env.PUBLIC_URL}/images/ai.png`} alt="AI" />
             <img src={`${process.env.PUBLIC_URL}/images/wp.png`} alt="WordPress" />
             <img src={`${process.env.PUBLIC_URL}/images/shopify.png`} alt="Shopify" />
@@ -88,6 +89,7 @@ function Homepage() {
             <img src={`${process.env.PUBLIC_URL}/images/hodlnaut.png`} alt="Hodlnaut" />
             <img src={`${process.env.PUBLIC_URL}/images/toyeast.png`} alt="Toyeast" />
             <img src={`${process.env.PUBLIC_URL}/images/uottawa.png`} alt="uOttawa" />
+            <img src={`${process.env.PUBLIC_URL}/images/uosu.png`} alt="UOSU" />
             <img src={`${process.env.PUBLIC_URL}/images/hth.png`} alt="Hack the Hill" />
             
             <img src={`${process.env.PUBLIC_URL}/images/prime.png`} alt="Prime Concepts Limited" width="100%" />

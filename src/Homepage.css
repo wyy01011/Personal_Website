@@ -160,10 +160,6 @@ ul li{
 
 }
  
-.homepageMePicResumeContainer:hover .imageMe {
-  opacity: 0.3;
-}
-  
 .homepageMePicResumeContainer:hover .middle {
   opacity: 1;
 }
