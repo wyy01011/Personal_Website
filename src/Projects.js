@@ -54,11 +54,10 @@ function Projects() {
 
             <div className='numeriaDes'>
                 <h2 className="numeriaTitle">Numeria &nbsp;&nbsp; <span style={{fontSize:"15px", fontWeight: 'bold', color: "#E3242B"}}>AI (DeepSeek API), Python, UI/X, TypeScript, CSS, React, JS</span></h2>
-                <p>Numeria is a maths game for children aged 5-12, aiming to address early learning gaps and cognitive development. 
+                <p>Numeria is a maths game for children aged 5-12. 
                     Players will get tailored generated questions according to their grade, country of residence and school curriculum. 
                     AI generated explanations will also be provided when users get a question wrong. This game follows a storyline, where 
-                    players get to choose an animal to act as and explore different islands (with each island as a math subject with
-                     practice questions). This is our team's submission for Ellehacks 9!</p>
+                    players get to choose an animal to act as and explore different islands. This is our team's submission for Ellehacks 9!</p>
 
                 <a href="https://github.com/wyy01011/Numeria" target="_blank" class = "button">Learn More!</a>
             </div>
